@@ -23,9 +23,9 @@ function ReuseableForm(props){
           placeholder='alcohol %' />
         <input
           type='number'
-          min = '0'
+          min = '124'
           name='beer'
-          placeholder='Size of Keg' />
+          placeholder='A full keg has 124 beers' />
           <button type='submit'>{props.buttonText}</button>
           
       </form>

@@ -10,8 +10,8 @@ function KegDetail(props){
       <p>Price: ${keg.price} - ABV: {keg.alcoholContent}</p>
       {/* <p>Number of Kegs: {keg.quantity}</p> */}
         {keg.beer === 0 ?
-        <h3>this keg has been tapped! Sorry</h3>
-        : <p>Beers Left in keg: {keg.beer}</p>
+        <h3>This keg has been tapped! Sorry</h3>
+        : <p>Beers left in keg: {keg.beer}</p>
         }
       
       {keg.beer > 0? <button onClick= { props.onClickingBuyBeer }>Sell a beer from this keg</button>: null}

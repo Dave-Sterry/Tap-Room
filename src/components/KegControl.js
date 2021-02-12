@@ -66,7 +66,6 @@ class KegControl extends React.Component{
   }
 
   handleBuyBeer = () => {
-    console.log("reached!");
     const newKeg = this.state.selectedKeg;
     const adjustedKeg = { ...newKeg, beer: newKeg.beer -1 }
     const editedMasterKegList = this.state.masterKegList.filter(keg => keg.id !== this.state.selectedKeg.id).concat(adjustedKeg);
