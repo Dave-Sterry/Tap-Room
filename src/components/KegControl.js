@@ -16,8 +16,38 @@ class KegControl extends React.Component{
     };
   }
 
+  handleClick =() =>{
+    if (this.state.selectedKeg != null){
+      this.setState({
+        formVisibleOnPage: false, 
+        selectedKeg:null,
+        editing: false
+      });
+    }else {
+      this.setState(prevState => ({
+        formVisibleOnPage: !prevState.formVisibleOnPage
+      }));
+    }
+  }
+
+  handleAddingNewKegToList = (newKeg) => {
+    const newMasterKegList = this.state.masterKegList.concat(newKeg);
+    this.setState({
+      masterKegList: newMasterKegList,
+      formVisibleOnPage: false
+    })
+  }
+
   render(){
-   
+    let currentlyVisibleState = null;
+    let buttonText = null;
+
+    if(){
+
+    }else if(this.state.formVisibleOnPage){
+      currentlyVisibleState = <NewKegForm onNewKegCreation={this.handleAddingNewKegToList} />
+      buttonText = "Return to Keg List"
+    }
     return(
       <React.Fragment>
         {currentlyVisibleState}
@@ -26,3 +56,5 @@ class KegControl extends React.Component{
     );
   }
 }
+
+export default KegControl;
