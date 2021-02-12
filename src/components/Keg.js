@@ -16,7 +16,8 @@ Keg.propTypes ={
   brand:PropTypes.string.isRequired,
   price:PropTypes.number.isRequired,
   alcoholContent:PropTypes.string.isRequired,
-  beer: 124, 
+  beer: PropTypes.number.isRequired, 
+  quantity: PropTypes.number.isRequired, 
   id: PropTypes.string,
   whenKegClicked:PropTypes.func
 };

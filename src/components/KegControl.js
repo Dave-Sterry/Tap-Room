@@ -68,7 +68,7 @@ class KegControl extends React.Component{
   handleBuyBeerClick = () => {
     const selectedKeg = this.state.selectedKeg;
     const beerToBuy = Object.assign({}, selectedKeg, {quantity: selectedKeg.beer -1});
-    const editedMasterKegList = this.state.masterKegList.filter(keg= keg.id !==this.state.selectedKeg.id).concat(beerToBuy);
+    const editedMasterKegList = this.state.masterKegList.filter(keg=>keg.id !==this.state.selectedKeg.id).concat(beerToBuy);
     this.setState({
       masterKegList: editedMasterKegList,
       selectedKeg: beerToBuy
@@ -78,7 +78,7 @@ class KegControl extends React.Component{
   handleRestockKegClick =() => {
     const selectedKeg = this.state.selectedKeg;
     const kegToRestock = Object.assign({}, selectedKeg, {quantity: selectedKeg.quantity +1});
-    const editedMasterKegList = this.state.masterKegList.filter(keg= keg.id != this.state.selectedKeg.id).concat(kegToRestock);
+    const editedMasterKegList = this.state.masterKegList.filter(keg=>keg.id !== this.state.selectedKeg.id).concat(kegToRestock);
     this.setState({
       masterKegList: editedMasterKegList,
       selectedKeg: kegToRestock
