@@ -1,6 +1,6 @@
 # Jean Claude Van Damme's Taproom
 <div align="center">
-<img src="https://github.com/Dave-Sterry.png" width="200px" height="auto" borderRadius ="10px">
+<img src="https://github.com/Dave-Sterry.png" width="200px" height="auto">
 </div>
 
 ### A React website by David Sterry 
@@ -19,6 +19,8 @@ Jean Claude Van Damme has launched a new Belegian Beer Tap room in Portland. He 
 * Custom styling. Jean Claude really wants this site to reflect his former career
 
 ## **Required for Use**
+ * An internet browser of your choice. I prefer Chrome
+ * A code editor of your choice. I use VSCode downloaded it [here](https://code.visualstudio.com/)
 
 ## **How to get this project** 
 
@@ -40,7 +42,18 @@ Jean Claude Van Damme has launched a new Belegian Beer Tap room in Portland. He 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+### How to use the site. 
+1. Click the "Add a Keg" button 
+2. Enter in values for the required fields. 
+3. "return to list" will let you see all kegs you've added
+4. Clicking on a single keg will let you see it's details
+5. On the Details page you can Delete, Update, or sell individual beers from the keg
+
 ### Project Planning Documentation 
+
+
+<img src ="./readmeassets/TapRoom.png">
+
 
 
 # Getting Started with Create React App
