@@ -11,9 +11,9 @@ function KegList(props) {
           whenKegClicked = {props.onKegSelection} 
           name = {keg.name}
           brand = {keg.brand}
-          price = {keg.price}
+          price = {parseInt(keg.price)}
           alcoholContent = {keg.alcoholContent}
-          beer ={keg.beer}
+          beer ={parseInt(keg.beer)}
           id={keg.id}
           key={keg.id}/>
       )}
