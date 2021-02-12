@@ -4,7 +4,7 @@ import React from 'react';
 function Header(){
   return(
     <React.Fragment>
-      <h1>KegTown</h1>
+      <h1>Jean Claude Van Damme Taproom</h1>
     </React.Fragment>
   );
 }
