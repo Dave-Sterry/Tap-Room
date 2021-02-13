@@ -4,7 +4,6 @@ import NewKegForm from './NewKegForm';
 import KegDetail from './KegDetail';
 import EditKegForm from './EditKegForm';
 
-
 class KegControl extends React.Component{
   constructor(props){
     super(props);
