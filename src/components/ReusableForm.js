@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import {Container} from "react-bootstrap";
 
 const inputStyles={
   padding: "5px",
@@ -11,6 +12,7 @@ const inputStyles={
 function ReuseableForm(props){
   return(
     <React.Fragment>
+      <Container>
       <form onSubmit={props.formSubmissionHandler}>
         <input 
           style={inputStyles}
@@ -39,8 +41,8 @@ function ReuseableForm(props){
           name='beer'
           placeholder='Number of Beers' />
           <button type='submit'>{props.buttonText}</button>
-          
       </form>
+      </Container>
     </React.Fragment>
   );
 }
