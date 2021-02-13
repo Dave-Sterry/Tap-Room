@@ -75,7 +75,7 @@ There are no known bugs
 * Bootstrap
 * node.js
 * VSCode
-* webpack
+* created using ```create-react-app```
 
 ## **Authors and Contributors**
 Authored by: David Sterry
