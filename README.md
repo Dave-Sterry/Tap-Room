@@ -36,8 +36,9 @@ Jean Claude Van Damme has launched a new Belegian Beer Tap room in Portland. He 
 
 1. Open the project in your code editor of choice 
 2. In the Terminal navigate to the project folder in this case Tap-Room
-3. Run ```npm start``` This will run the app in the development mode.\
-4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3. Run ```npm install``` to install required dependencies 
+4. Run ```npm start``` This will run the app in the development mode.\
+5. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
