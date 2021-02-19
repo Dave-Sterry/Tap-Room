@@ -5,7 +5,7 @@
 
 ### A React website by David Sterry 
 Initialized on 02/12/21
-Last updated on 02/12/21
+Last updated on 02/19/21
 
 ## **Project Description**
 Jean Claude Van Damme has launched a new Belegian Beer Tap room in Portland. He needed a website to help keep track of his kegs. This site lets him create, update, delete kegs, as well as keep track of how many beers are in an individual keg. 
